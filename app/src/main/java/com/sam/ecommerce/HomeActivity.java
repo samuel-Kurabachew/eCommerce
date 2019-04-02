@@ -7,6 +7,8 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.Toast;
 
+import io.paperdb.Paper;
+
 public class HomeActivity extends AppCompatActivity {
 
     private Button logoutButton;
@@ -21,7 +23,8 @@ public class HomeActivity extends AppCompatActivity {
         logoutButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Toast.makeText(HomeActivity.this, "Logged out Successfully...", Toast.LENGTH_SHORT).show();
+                Paper.book().destroy();
+
                 Intent intent = new Intent(HomeActivity.this, LoginActivity.class);
                 startActivity(intent);
             }
