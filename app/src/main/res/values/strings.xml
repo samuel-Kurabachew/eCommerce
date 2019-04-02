@@ -1,6 +1,13 @@
 <resources>
     <string name="app_name">eCommerce</string>
     <string name="app_slogan_label">Find, Discover, Choose and Buy anything online.</string>
-    <string name="login_button_label">Already have an Account? Login</string>
+    <string name="login_link_button_label">Already have an Account? Login</string>
     <string name="join_now_button_label">Join Now</string>
+    <string name="phone_number_input_hint">Phone Number</string>
+    <string name="password_input_hint">Password</string>
+    <string name="remember_me_checkbox_label">Remember me</string>
+    <string name="forget_password_link_label">Forget Password</string>
+    <string name="login_button_label">Login</string>
+    <string name="admin_link_label">I\'m an Admin?</string>
+    <string name="not_admin_link_label">I\'m not an Admin?</string>
 </resources>
