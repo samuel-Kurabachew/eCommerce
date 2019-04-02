@@ -10,4 +10,5 @@
     <string name="login_button_label">Login</string>
     <string name="admin_link_label">I\'m an Admin?</string>
     <string name="not_admin_link_label">I\'m not an Admin?</string>
+    <string name="register_name_label">Name</string>
 </resources>
